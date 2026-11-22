@@ -1,1 +1,14 @@
-$file:/workspace/ai-content-miniapps/templates/ai-tools-nav/app.json
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "AI 工具导航",
+    "navigationBarBackgroundColor": "#0B0F14",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#0B0F14",
+    "backgroundTextStyle": "light"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
