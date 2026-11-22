@@ -1,0 +1,1 @@
+.h2 { margin: 36rpx 0 0; font-size: 28rpx; color: var(--muted); letter-spacing: 2rpx; }
