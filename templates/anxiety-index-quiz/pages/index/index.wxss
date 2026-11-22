@@ -1,0 +1,3 @@
+.choices { display: flex; flex-wrap: wrap; gap: 12rpx; margin-top: 16rpx; }
+.choice { font-size: 22rpx; padding: 10rpx 16rpx; border-radius: 999rpx; border: 1rpx solid var(--line); color: var(--muted); }
+.choice.on { border-color: var(--anxiety); color: var(--anxiety); background: rgba(255, 107, 74, 0.12); }
