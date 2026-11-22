@@ -1,1 +1,21 @@
-$file:/workspace/ai-content-miniapps/templates/publish-checklist/pages/index/index.wxml
+<view class="page">
+  <view class="banner">清单会保存在本机缓存里。所有内容都应先人工确认，模板不会替你发布到 X 或抖音。</view>
+  <view class="eyebrow">CHECKLIST</view>
+  <view class="h1">内容发布清单</view>
+
+  <view class="card">
+    <view class="title">先选一条示例选题</view>
+    <picker range="{{titles}}" bindchange="onPick">
+      <view class="btn ghost">{{current ? current.title : "点这里选择"}}</view>
+    </picker>
+  </view>
+
+  <view class="card" wx:if="{{current}}">
+    <view class="meta">钩子：{{current.hook_titles[0]}}</view>
+    <view class="row step" wx:for="{{steps}}" wx:key="id" bindtap="toggle" data-id="{{item.id}}">
+      <view class="box {{checked[item.id] ? 'on' : ''}}">{{checked[item.id] ? "✓" : ""}}</view>
+      <view class="title">{{item.label}}</view>
+    </view>
+    <view class="meta">已完成 {{doneCount}} / {{steps.length}}</view>
+  </view>
+</view>
