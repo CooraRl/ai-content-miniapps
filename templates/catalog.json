@@ -1,1 +1,76 @@
-$file:/workspace/ai-content-miniapps/templates/catalog.json
+{
+  "templates": [
+    {
+      "id": "today-ai-brief",
+      "name": "今日 AI 快讯",
+      "blurb": "用列表展示今日 AI 新闻，带摘要和吸睛 / 焦虑 / 相关三项评分。",
+      "path": "templates/today-ai-brief"
+    },
+    {
+      "id": "anxiety-index-quiz",
+      "name": "AI 焦虑指数测试",
+      "blurb": "一套自我观察量表，给出 0–100 的焦虑指数和克制建议，不是心理诊断。",
+      "path": "templates/anxiety-index-quiz"
+    },
+    {
+      "id": "job-replace-quiz",
+      "name": "AI 会不会取代我的职业测试",
+      "blurb": "按方向和日常工作方式，给出「被辅助」风险等级，并强调这不是就业预测。",
+      "path": "templates/job-replace-quiz"
+    },
+    {
+      "id": "hook-title-generator",
+      "name": "AI 新闻标题钩子生成器",
+      "blurb": "为一条新闻展示焦虑型和反转型钩子，点按即可复制。",
+      "path": "templates/hook-title-generator"
+    },
+    {
+      "id": "cover-card-preview",
+      "name": "封面卡片预览",
+      "blurb": "用叠字卡片预览抖音竖版 9:16 和 X 横版 16:9 封面，占位等待真实配图。",
+      "path": "templates/cover-card-preview"
+    },
+    {
+      "id": "ai-tools-nav",
+      "name": "AI 工具导航",
+      "blurb": "按对话、图像视频、编程与智能体分类，展示常用 AI 工具并复制官网链接。",
+      "path": "templates/ai-tools-nav"
+    },
+    {
+      "id": "daily-ai-term",
+      "name": "每日一个 AI 名词",
+      "blurb": "每天轮换一个基础概念卡片，如 Token、RAG、Agent，适合做科普短内容。",
+      "path": "templates/daily-ai-term"
+    },
+    {
+      "id": "ai-news-qa",
+      "name": "AI 新闻问答（占位）",
+      "blurb": "先用本地示例新闻做检索演示，预留对接 daily-ai-news 的 RAG 问答接口。",
+      "path": "templates/ai-news-qa"
+    },
+    {
+      "id": "hot-topic-board",
+      "name": "吸睛选题榜",
+      "blurb": "按吸睛、焦虑、相关的加权分数排序，自动标出今日建议选题。",
+      "path": "templates/hot-topic-board"
+    },
+    {
+      "id": "douyin-script-preview",
+      "name": "抖音脚本预览",
+      "blurb": "把钩子、摘要拼成口播分镜草稿，默认只生成文案，不自动发布。",
+      "path": "templates/douyin-script-preview"
+    },
+    {
+      "id": "news-calendar",
+      "name": "AI 新闻日历",
+      "blurb": "按日期浏览示例新闻，演示以后按天拉取历史数据的方式。",
+      "path": "templates/news-calendar"
+    },
+    {
+      "id": "publish-checklist",
+      "name": "内容发布清单",
+      "blurb": "把选题、钩子、脚本、封面和人工确认串成发布前检查清单。",
+      "path": "templates/publish-checklist"
+    }
+  ]
+}

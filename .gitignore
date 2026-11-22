@@ -1,1 +1,18 @@
-$file:/workspace/ai-content-miniapps/.gitignore
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# 依赖（本仓库是原生小程序模板，默认不需要）
+node_modules/
+miniprogram_npm/
+
+# 微信开发者工具本机配置，可能含私有 AppID
+project.private.config.json
+
+# 环境变量与密钥，永远不要提交
+.env
+.env.local
+*.pem
