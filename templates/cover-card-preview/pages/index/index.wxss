@@ -1,0 +1,10 @@
+.picked { border-color: var(--hook); }
+.stage { position: relative; margin-top: 24rpx; border-radius: 24rpx; overflow: hidden; background: linear-gradient(160deg, #1a1630, #3a1d38 45%, #ff6b4a); color: #fff; }
+.stage.portrait { height: 760rpx; }
+.stage.landscape { height: 420rpx; }
+.shade { position: absolute; left: 0; right: 0; bottom: 0; height: 60%; background: linear-gradient(to top, rgba(0,0,0,0.72), transparent); }
+.badge, .headline, .sub { position: relative; padding: 0 36rpx; }
+.badge { padding-top: 36rpx; font-size: 20rpx; opacity: 0.85; }
+.headline { font-size: 40rpx; font-weight: 700; line-height: 1.35; margin-top: 40%; }
+.stage.landscape .headline { margin-top: 16%; font-size: 36rpx; }
+.sub { margin-top: 16rpx; font-size: 22rpx; opacity: 0.8; }

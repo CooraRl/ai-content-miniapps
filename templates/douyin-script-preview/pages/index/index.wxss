@@ -1,0 +1,2 @@
+.picked { border-color: var(--accent); }
+.block { margin-top: 22rpx; }

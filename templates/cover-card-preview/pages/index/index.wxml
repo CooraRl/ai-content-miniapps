@@ -1,0 +1,21 @@
+<view class="page">
+  <view class="banner">这里用渐变底图和叠字模拟封面。以后可展示 daily-ai-news V0.8 生成的 1080×1920 与 1920×1080 草稿图。</view>
+  <view class="eyebrow">COVER</view>
+  <view class="h1">封面卡片预览</view>
+
+  <view class="chips" style="margin: 16rpx 0 8rpx;">
+    <view class="chip {{ratio === '9:16' ? 'cat' : ''}}" bindtap="setRatio" data-ratio="9:16">抖音竖版 9:16</view>
+    <view class="chip {{ratio === '16:9' ? 'cat' : ''}}" bindtap="setRatio" data-ratio="16:9">X 横版 16:9</view>
+  </view>
+
+  <view class="card {{currentId === item.id ? 'picked' : ''}}" wx:for="{{items}}" wx:key="id" bindtap="pick" data-id="{{item.id}}">
+    <view class="title">{{item.title}}</view>
+  </view>
+
+  <view class="stage {{ratio === '16:9' ? 'landscape' : 'portrait'}}" wx:if="{{current}}">
+    <view class="shade"></view>
+    <view class="badge">示例封面 · 非真实配图</view>
+    <view class="headline">{{headline}}</view>
+    <view class="sub">{{current.source}} · {{ratio}}</view>
+  </view>
+</view>

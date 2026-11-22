@@ -1,0 +1,19 @@
+<view class="page">
+  <view class="banner">脚本由本地模板拼接，不是大模型实时生成。以后可对接收 daily-ai-news V0.7 的口播草稿。</view>
+  <view class="eyebrow">SCRIPT</view>
+  <view class="h1">抖音脚本预览</view>
+
+  <view class="card {{currentId === item.id ? 'picked' : ''}}" wx:for="{{items}}" wx:key="id" bindtap="pick" data-id="{{item.id}}">
+    <view class="title">{{item.title}}</view>
+    <view class="meta">综合参考分：吸睛 {{item.scores.hook}} · 焦虑 {{item.scores.anxiety}}</view>
+  </view>
+
+  <view class="card" wx:if="{{script}}">
+    <view class="meta">约 {{script.duration}} 秒 · 示例草稿，需人工确认后再用</view>
+    <view class="block" wx:for="{{script.beats}}" wx:key="label">
+      <view class="chip cat">{{item.label}}</view>
+      <view class="title" style="margin-top: 8rpx;">{{item.text}}</view>
+    </view>
+    <view class="btn" bindtap="copy">复制脚本</view>
+  </view>
+</view>
