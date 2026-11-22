@@ -1,0 +1,2 @@
+/* 本页主要复用 app.wxss 的卡片和标签样式。 */
+.card { transition: opacity 0.2s; }

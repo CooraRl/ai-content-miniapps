@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "今日 AI 快讯",
+    "navigationBarBackgroundColor": "#0B0F14",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#0B0F14",
+    "backgroundTextStyle": "light"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
