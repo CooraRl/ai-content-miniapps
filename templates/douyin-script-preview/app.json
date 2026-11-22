@@ -1,1 +1,14 @@
-$file:/workspace/ai-content-miniapps/templates/douyin-script-preview/app.json
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "抖音脚本预览",
+    "navigationBarBackgroundColor": "#0B0F14",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#0B0F14",
+    "backgroundTextStyle": "light"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

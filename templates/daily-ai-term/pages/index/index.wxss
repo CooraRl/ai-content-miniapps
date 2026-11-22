@@ -1,1 +1,1 @@
-$file:/workspace/ai-content-miniapps/templates/daily-ai-term/pages/index/index.wxss
+.term .h1 { margin: 12rpx 0 16rpx; }
