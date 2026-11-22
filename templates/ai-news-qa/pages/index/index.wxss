@@ -1,1 +1,1 @@
-.field { background: var(--card-2); border-radius: 12rpx; padding: 16rpx 20rpx; color: var(--text); }
+$file:/workspace/ai-content-miniapps/templates/ai-news-qa/pages/index/index.wxss

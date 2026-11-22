@@ -1,17 +1,1 @@
-<view class="page">
-  <view class="eyebrow">NAV</view>
-  <view class="h1">AI 工具导航</view>
-  <view class="lead">{{tools.note}}</view>
-
-  <view wx:for="{{tools.categories}}" wx:key="id">
-    <view class="h2">{{item.name}}</view>
-    <view class="card" wx:for="{{item.items}}" wx:for-item="tool" wx:key="name" bindtap="copy" data-url="{{tool.url}}">
-      <view class="row">
-        <view class="title">{{tool.name}}</view>
-        <text class="chip cat">复制链接</text>
-      </view>
-      <view class="meta">{{tool.desc}}</view>
-      <view class="meta">{{tool.url}}</view>
-    </view>
-  </view>
-</view>
+$file:/workspace/ai-content-miniapps/templates/ai-tools-nav/pages/index/index.wxml

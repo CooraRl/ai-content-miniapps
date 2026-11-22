@@ -1,3 +1,1 @@
-.step { margin-top: 20rpx; justify-content: flex-start; }
-.box { width: 40rpx; height: 40rpx; border: 2rpx solid var(--line); border-radius: 8rpx; text-align: center; line-height: 36rpx; color: #081018; }
-.box.on { background: var(--good); border-color: var(--good); }
+$file:/workspace/ai-content-miniapps/templates/publish-checklist/pages/index/index.wxss

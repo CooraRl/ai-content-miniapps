@@ -1,14 +1,1 @@
-{
-  "pages": [
-    "pages/index/index"
-  ],
-  "window": {
-    "navigationBarTitleText": "封面卡片预览",
-    "navigationBarBackgroundColor": "#0B0F14",
-    "navigationBarTextStyle": "white",
-    "backgroundColor": "#0B0F14",
-    "backgroundTextStyle": "light"
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
-}
+$file:/workspace/ai-content-miniapps/templates/cover-card-preview/app.json

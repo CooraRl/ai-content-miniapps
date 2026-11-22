@@ -1,8 +1,1 @@
-App({
-  onLaunch() {
-    // 预留全局状态。模板尽量自包含，不在这里放密钥。
-  },
-  globalData: {
-    schemaVersion: "1.0",
-  },
-});
+$file:/workspace/ai-content-miniapps/templates/cover-card-preview/app.js

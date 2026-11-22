@@ -1,2 +1,1 @@
-.picked { border-color: var(--accent); }
-.block { margin-top: 22rpx; }
+$file:/workspace/ai-content-miniapps/templates/douyin-script-preview/pages/index/index.wxss

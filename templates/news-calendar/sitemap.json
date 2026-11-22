@@ -1,9 +1,1 @@
-{
-  "desc": "默认允许索引。示例小程序一般不会上线，可按需修改。",
-  "rules": [
-    {
-      "action": "allow",
-      "page": "*"
-    }
-  ]
-}
+$file:/workspace/ai-content-miniapps/templates/news-calendar/sitemap.json

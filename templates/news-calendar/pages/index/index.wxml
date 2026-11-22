@@ -1,18 +1,1 @@
-<view class="page">
-  <view class="eyebrow">CALENDAR</view>
-  <view class="h1">AI 新闻日历</view>
-  <view class="lead">示例数据覆盖最近几天。点日期查看当天条目。</view>
-
-  <view class="chips">
-    <view class="chip {{currentDate === item ? 'cat' : ''}}" wx:for="{{dates}}" wx:key="*this" bindtap="pickDate" data-date="{{item}}">{{item}}</view>
-  </view>
-
-  <view class="card" wx:if="{{dayItems.length === 0}}">
-    <view class="meta">这一天没有示例新闻。</view>
-  </view>
-  <view class="card" wx:for="{{dayItems}}" wx:key="id">
-    <view class="title">{{item.title}}</view>
-    <view class="meta">{{item.source}} · {{item.published}}</view>
-    <view class="meta">{{item.summary}}</view>
-  </view>
-</view>
+$file:/workspace/ai-content-miniapps/templates/news-calendar/pages/index/index.wxml

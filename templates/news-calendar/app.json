@@ -1,14 +1,1 @@
-{
-  "pages": [
-    "pages/index/index"
-  ],
-  "window": {
-    "navigationBarTitleText": "AI 新闻日历",
-    "navigationBarBackgroundColor": "#0B0F14",
-    "navigationBarTextStyle": "white",
-    "backgroundColor": "#0B0F14",
-    "backgroundTextStyle": "light"
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
-}
+$file:/workspace/ai-content-miniapps/templates/news-calendar/app.json

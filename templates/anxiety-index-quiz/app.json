@@ -1,14 +1,1 @@
-{
-  "pages": [
-    "pages/index/index"
-  ],
-  "window": {
-    "navigationBarTitleText": "AI 焦虑指数测试",
-    "navigationBarBackgroundColor": "#0B0F14",
-    "navigationBarTextStyle": "white",
-    "backgroundColor": "#0B0F14",
-    "backgroundTextStyle": "light"
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
-}
+$file:/workspace/ai-content-miniapps/templates/anxiety-index-quiz/app.json
