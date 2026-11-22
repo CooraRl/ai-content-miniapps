@@ -1,1 +1,20 @@
-$file:/workspace/ai-content-miniapps/templates/hot-topic-board/pages/index/index.wxml
+<view class="page">
+  <view class="banner">排序公式：吸睛×0.4 + 焦虑×0.3 + 相关×0.3。只用于从已有示例新闻里选题，不编造新事实。</view>
+  <view class="eyebrow">BOARD</view>
+  <view class="h1">吸睛选题榜</view>
+  <view class="lead">综合分最高的 3 条作为今日建议选题。</view>
+
+  <view class="card {{item.rank <= 3 ? 'top' : ''}}" wx:for="{{items}}" wx:key="id">
+    <view class="row">
+      <text class="rank">{{item.rank}}</text>
+      <text class="chip {{item.rank <= 3 ? 'hook' : ''}}">综合 {{item.overall}}</text>
+    </view>
+    <view class="title">{{item.title}}</view>
+    <view class="chips">
+      <text class="chip hook">吸睛 {{item.scores.hook}}</text>
+      <text class="chip anxiety">焦虑 {{item.scores.anxiety}}</text>
+      <text class="chip relevance">相关 {{item.scores.relevance}}</text>
+    </view>
+    <view class="meta">建议钩子：{{item.hook_titles[0]}}</view>
+  </view>
+</view>

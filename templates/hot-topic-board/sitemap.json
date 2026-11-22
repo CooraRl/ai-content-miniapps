@@ -1,1 +1,9 @@
-$file:/workspace/ai-content-miniapps/templates/hot-topic-board/sitemap.json
+{
+  "desc": "默认允许索引。示例小程序一般不会上线，可按需修改。",
+  "rules": [
+    {
+      "action": "allow",
+      "page": "*"
+    }
+  ]
+}

@@ -1,1 +1,2 @@
-$file:/workspace/ai-content-miniapps/templates/hook-title-generator/pages/index/index.wxss
+.picked { border-color: var(--accent); }
+.hook { margin-top: 20rpx; padding-top: 16rpx; border-top: 1rpx solid var(--line); }

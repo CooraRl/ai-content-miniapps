@@ -1,1 +1,14 @@
-$file:/workspace/ai-content-miniapps/templates/hot-topic-board/app.json
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "吸睛选题榜",
+    "navigationBarBackgroundColor": "#0B0F14",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#0B0F14",
+    "backgroundTextStyle": "light"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
