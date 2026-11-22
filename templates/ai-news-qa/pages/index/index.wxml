@@ -1,0 +1,20 @@
+<view class="page">
+  <view class="banner">这是 RAG 问答的占位页。现在用本地示例新闻做关键词匹配；以后可改为请求 daily-ai-news 的 POST /ask。</view>
+  <view class="eyebrow">ASK</view>
+  <view class="h1">AI 新闻问答</view>
+
+  <view class="card">
+    <input class="field" placeholder="例如：有哪些和办公软件相关的示例？" value="{{question}}" bindinput="onInput" confirm-type="search" bindconfirm="ask" />
+    <view class="btn" bindtap="ask">提问（演示）</view>
+  </view>
+
+  <view class="chips">
+    <view class="chip cat" wx:for="{{examples}}" wx:key="*this" bindtap="useExample" data-text="{{item}}">{{item}}</view>
+  </view>
+
+  <view class="card" wx:if="{{answer}}">
+    <view class="title">{{answer}}</view>
+    <view class="meta" style="margin-top: 16rpx;">出处（示例）：</view>
+    <view class="meta" wx:for="{{sources}}" wx:key="id">· {{item.title}}</view>
+  </view>
+</view>
